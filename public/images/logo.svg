@@ -1,0 +1,16 @@
+<svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brandGradient" x1="20" y1="20" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF8A7A"/>
+      <stop offset="1" stop-color="#F6B58B"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="40" fill="url(#brandGradient)"/>
+  <path d="M79.8 49.8C66.4 35.8 42 42.9 42 64.9C42 83.5 57.9 96.7 79.8 114.5C101.7 96.7 117.6 83.5 117.6 64.9C117.6 42.9 93.2 35.8 79.8 49.8Z" fill="white"/>
+  <path d="M55 92.1H105.8V104.8C105.8 112.3 100.1 118 92.6 118H67.2C59.7 118 54 112.3 54 104.8V92.1H55Z" fill="#FDF2E8"/>
+  <path d="M73.8 53.4H84.1V95.6H73.8V53.4Z" fill="#FF8A7A"/>
+  <path d="M57 90.9H97.9V100H57V90.9Z" fill="#FF8A7A"/>
+  <circle cx="122" cy="47" r="7" fill="#FFF7F3" fill-opacity="0.9"/>
+  <circle cx="35" cy="49" r="5" fill="#FFF7F3" fill-opacity="0.8"/>
+  <path d="M122.5 28L124.7 35.3L132 37.5L124.7 39.7L122.5 47L120.3 39.7L113 37.5L120.3 35.3L122.5 28Z" fill="#FFF7F3" fill-opacity="0.8"/>
+</svg>
