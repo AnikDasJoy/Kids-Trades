@@ -1,0 +1,17 @@
+<svg width="600" height="700" viewBox="0 0 600 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="shadow" x="100" y="150" width="400" height="510" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="600" height="700" rx="40" fill="#eaf4f8"/>
+  <circle cx="300" cy="330" r="218" fill="#ffffff" fill-opacity=".62"/>
+  <circle cx="438" cy="173" r="34" fill="#b8d8e9" fill-opacity=".35"/>
+  <path d="M120 590C210 566 390 566 480 590" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+  <path d="M276 139Q300 107 324 139L300 164L276 139Z" stroke="#8b8278" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 164V194" stroke="#8b8278" stroke-width="8" stroke-linecap="round"/>
+  <g transform="translate(0 0)" filter="url(#shadow)" opacity=".13"><path d="M238 207L275 188H325L362 207L405 258L371 286L353 266L375 389L438 592Q300 636 162 592L225 389L247 266L229 286L195 258L238 207Z" fill="#618db7"/><path d="M275 190Q300 220 325 190L339 214Q300 245 261 214L275 190Z" fill="#b8d8e9"/><path d="M226 393Q300 419 374 393" stroke="#b8d8e9" stroke-width="7" opacity=".85"/><path d="M200 526Q300 550 400 526" stroke="#b8d8e9" stroke-width="5" opacity=".6"/><path d="M255 315H345" stroke="#b8d8e9" stroke-width="5" stroke-linecap="round"/><circle cx="300" cy="355" r="6" fill="#b8d8e9"/><circle cx="300" cy="385" r="6" fill="#b8d8e9"/></g>
+  <g transform="translate(0 0)"><path d="M238 207L275 188H325L362 207L405 258L371 286L353 266L375 389L438 592Q300 636 162 592L225 389L247 266L229 286L195 258L238 207Z" fill="#618db7"/><path d="M275 190Q300 220 325 190L339 214Q300 245 261 214L275 190Z" fill="#b8d8e9"/><path d="M226 393Q300 419 374 393" stroke="#b8d8e9" stroke-width="7" opacity=".85"/><path d="M200 526Q300 550 400 526" stroke="#b8d8e9" stroke-width="5" opacity=".6"/><path d="M255 315H345" stroke="#b8d8e9" stroke-width="5" stroke-linecap="round"/><circle cx="300" cy="355" r="6" fill="#b8d8e9"/><circle cx="300" cy="385" r="6" fill="#b8d8e9"/></g>
+  <path d="M103 628H497" stroke="#ded8cf" stroke-width="2"/>
+  <circle cx="300" cy="650" r="4" fill="#618db7"/>
+</svg>
