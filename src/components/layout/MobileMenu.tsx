@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { X } from "lucide-react";
+import { Search, X } from "lucide-react";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -21,6 +21,10 @@ const menuItems = [
   { label: "Sale", href: "/shop/sale" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
+  { label: "Search", href: "/search" },
+  { label: "Wishlist", href: "/wishlist" },
+  { label: "Cart", href: "/cart" },
+  { label: "Account", href: "/account" },
 ];
 
 export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
@@ -37,7 +41,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
       />
 
       <aside
-        className={`fixed inset-y-0 left-0 z-50 w-full max-w-sm transform bg-cream p-5 shadow-soft transition-transform duration-300 ${
+        className={`fixed inset-y-0 left-0 z-50 flex w-full max-w-sm flex-col transform bg-cream p-5 shadow-soft transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
         aria-label="Mobile navigation"
@@ -54,13 +58,13 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
           </button>
         </div>
 
-        <nav className="mt-6 space-y-2">
+        <nav className="mt-6 flex-1 space-y-1 overflow-y-auto">
           {menuItems.map(({ label, href }) => (
             <Link
               key={label}
               href={href}
               onClick={onClose}
-              className="block rounded-2xl px-3 py-3 text-base font-medium text-charcoal transition hover:bg-white"
+              className="block rounded-xl px-3 py-3 text-base font-medium text-charcoal transition hover:bg-white"
             >
               {label}
             </Link>

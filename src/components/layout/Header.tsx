@@ -27,15 +27,16 @@ export function Header() {
             <button
               type="button"
               aria-label="Open menu"
+              aria-expanded={mobileMenuOpen}
               onClick={() => setMobileMenuOpen(true)}
-              className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-charcoal/10 bg-white text-charcoal shadow-sm md:hidden"
+              className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-charcoal/10 bg-white text-charcoal shadow-sm lg:hidden"
             >
               <Menu className="h-5 w-5" />
             </button>
 
             <Link
               href="/"
-              className="flex items-center gap-3"
+              className="flex min-w-0 items-center gap-2 sm:gap-3"
               aria-label="Little & Lovely home"
             >
               <div className="relative h-10 w-10 overflow-hidden rounded-full border border-charcoal/10 bg-coral shadow-sm">
@@ -48,14 +49,14 @@ export function Header() {
                 />
               </div>
               <div>
-                <p className="text-lg font-semibold tracking-[0.18em] text-charcoal">
+                <p className="truncate text-sm font-semibold tracking-[0.08em] text-charcoal sm:text-lg sm:tracking-[0.12em]">
                   Ruma Kids Trades
                 </p>
               </div>
             </Link>
           </div>
 
-          <nav className="hidden items-center gap-7 lg:flex">
+          <nav className="hidden items-center gap-4 xl:gap-6 lg:flex">
             {navItems.map(({ label, href }) => (
               <Link
                 key={label}

@@ -1,6 +1,3 @@
-import { AnnouncementBar } from "@/components/layout/AnnouncementBar";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/home/Hero";
 import { CategorySection } from "@/components/home/CategorySection";
 import { NewArrivals } from "@/components/home/NewArrivals";
@@ -15,8 +12,6 @@ import { Newsletter } from "@/components/home/Newsletter";
 export default function HomePage() {
   return (
     <>
-      <AnnouncementBar />
-      <Header />
       <main>
         <Hero />
         <CategorySection />
@@ -29,7 +24,6 @@ export default function HomePage() {
         <Reviews />
         <Newsletter />
       </main>
-      <Footer />
     </>
   );
 }
